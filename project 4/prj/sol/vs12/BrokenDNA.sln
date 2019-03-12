@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrokenDNA", "BrokenDNA.vcxproj", "{69598539-0A4D-4732-A4A4-E24BF76B7139}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrokenDNATest", "..\..\tests\gtest\sol\vs12\BrokenDNATest\BrokenDNATest.vcxproj", "{43C27F0B-5735-4E13-BAD1-3E0CB65450C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69598539-0A4D-4732-A4A4-E24BF76B7139}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69598539-0A4D-4732-A4A4-E24BF76B7139}.Debug|Win32.Build.0 = Debug|Win32
+		{69598539-0A4D-4732-A4A4-E24BF76B7139}.Release|Win32.ActiveCfg = Release|Win32
+		{69598539-0A4D-4732-A4A4-E24BF76B7139}.Release|Win32.Build.0 = Release|Win32
+		{43C27F0B-5735-4E13-BAD1-3E0CB65450C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43C27F0B-5735-4E13-BAD1-3E0CB65450C9}.Debug|Win32.Build.0 = Debug|Win32
+		{43C27F0B-5735-4E13-BAD1-3E0CB65450C9}.Release|Win32.ActiveCfg = Release|Win32
+		{43C27F0B-5735-4E13-BAD1-3E0CB65450C9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

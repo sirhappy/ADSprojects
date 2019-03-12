@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{36e3c040-57fe-48b2-823a-1548816276d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-tests">
+      <UniqueIdentifier>{976c3e1f-9975-442a-a360-cc9323bc8cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-BrokenDNA">
+      <UniqueIdentifier>{7f0a557c-b7ee-4d88-a474-82b330246a82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\gtest\gtest.h">
+      <Filter>gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\dna_element.h">
+      <Filter>src-BrokenDNA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\dna_repairer.h">
+      <Filter>src-BrokenDNA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\linked_list.h">
+      <Filter>src-BrokenDNA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\linked_list.hpp">
+      <Filter>src-BrokenDNA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\gtest\gtest_main.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gtest\gtest-all.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\dna_element.cpp">
+      <Filter>src-BrokenDNA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\dna_repairer.cpp">
+      <Filter>src-BrokenDNA</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src-test">
+      <UniqueIdentifier>{d029d376-311f-49fa-9270-7ed1849997eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-bidilist">
+      <UniqueIdentifier>{9581fa78-cf78-4ce6-8bbd-4ef9bc875587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{0ca7c44a-42ab-4f57-83c3-8afb7a6eb2e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\gtest\gtest_main.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gtest\gtest-all.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\bidi_linked_list_test.cpp">
+      <Filter>src-test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\bidi_linked_list.h">
+      <Filter>src-bidilist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\bidi_linked_list.hpp">
+      <Filter>src-bidilist</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gtest\gtest.h">
+      <Filter>gtest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

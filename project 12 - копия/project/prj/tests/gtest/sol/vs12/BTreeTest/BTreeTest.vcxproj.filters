@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src-tests">
+      <UniqueIdentifier>{9c5baf3d-1b1c-474e-859e-aec2b84d3702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-btree">
+      <UniqueIdentifier>{e117a5fb-3477-47af-a65a-aadfdcea1122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest-fus">
+      <UniqueIdentifier>{324a9f0b-0a70-41bb-8d81-d9d2c449f990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\btree.cpp">
+      <Filter>src-btree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\btree1_tests.cpp">
+      <Filter>src-tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\adapters1_tests.cpp">
+      <Filter>src-tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gtest-fus\gtest_main.cc">
+      <Filter>gtest-fus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gtest-fus\gtest-all.cc">
+      <Filter>gtest-fus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\btree.h">
+      <Filter>src-btree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\utils.h">
+      <Filter>src-btree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\individual.h">
+      <Filter>src-tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\btree_adapters.h">
+      <Filter>src-btree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gtest-fus\gtest.h">
+      <Filter>gtest-fus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

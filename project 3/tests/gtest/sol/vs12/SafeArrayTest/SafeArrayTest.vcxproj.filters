@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\gtest\gtest_main.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gtest\gtest-all.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\safearray_test.cpp">
+      <Filter>src-tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\subject_test.cpp">
+      <Filter>src-tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\subject.cpp">
+      <Filter>src-SafeArray</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\gtest\gtest.h">
+      <Filter>gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\safearray.h">
+      <Filter>src-SafeArray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\safearray.hpp">
+      <Filter>src-SafeArray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\subject.h">
+      <Filter>src-SafeArray</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{5c9ab8a8-49c3-4323-a213-9808dce4790f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-tests">
+      <UniqueIdentifier>{ca805177-56c0-423a-8e22-57bf124aa07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-SafeArray">
+      <UniqueIdentifier>{f89bb48a-2829-4bf7-8361-ccfd1c3d751d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resourse Files">
+      <UniqueIdentifier>{97b7c734-2038-4e84-a71d-4fc70e9b89cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

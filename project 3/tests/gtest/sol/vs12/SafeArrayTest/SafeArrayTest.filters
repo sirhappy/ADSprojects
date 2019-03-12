@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src-tests">
+      <UniqueIdentifier>{997e59d5-cfe8-410e-bea1-955f31b59c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-StackMachine">
+      <UniqueIdentifier>{31e48acf-f707-40ca-afd7-b819b326a61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gtest">
+      <UniqueIdentifier>{9a57aeb3-81e9-4b04-874f-ac86e088879d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\gtest\gtest_main.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gtest\gtest-all.cc">
+      <Filter>gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\safearray_test.cpp">
+      <Filter>src-tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\subject_test.cpp">
+      <Filter>src-tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\safearray — копия\src\subject.cpp">
+      <Filter>src-StackMachine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\gtest\gtest.h">
+      <Filter>gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\safearray — копия\src\safearray.h">
+      <Filter>src-StackMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\safearray — копия\src\safearray.hpp">
+      <Filter>src-StackMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\safearray — копия\src\subject.h">
+      <Filter>src-StackMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
